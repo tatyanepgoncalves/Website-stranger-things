@@ -1,0 +1,32 @@
+$primary-color: #cf0f0f;
+$primary-color-contrast: #ffffff;
+$field-background-color: #000;
+/*light theme */
+$bgPageLight: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #ffffff 65%,
+    rgba(255, 255, 255, 0.75) 100%
+  );
+$bgHeaderLight: #e3e3e3;
+$highlightLight: #000000;
+$font-light: "Archivo", sans-serif;
+$character-light: #ffffff;
+$image-inverted-world: url("../images/Inverted-World.png");
+$character-bottom-light: #e5e5e5;
+$background-lamp-light: url("../images/letters-black.png");
+$footer-background-color-light: #b5bbbf;
+
+$page-background-dark: linear-gradient(
+    180deg,
+    #050000 0%,
+    #130404 65%,
+    rgba(19, 1, 1, 0.75) 100%
+  );
+$header-bg-dark: #220f0f;
+$highlight-dark: #ffffff;
+$font-family-dark: "Rubik Glitch", sans-serif;
+$character-top-image-dark: #000;
+$background-lamp-dark: url("../images/letters-white.png");
+$footer-background-color-dark: #000;
+
