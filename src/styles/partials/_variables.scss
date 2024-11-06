@@ -1,32 +1,42 @@
+
+$libre:  "Libre Baskerville", serif;
+$archivo: "Archivo Black", serif;
+$rubik: "Rubik Glitch", serif; 
+$inter: "Inter", sans-serif;
+
 $primary-color: #cf0f0f;
-$primary-color-contrast: #ffffff;
+$primary-color-contrast: #fff;
 $field-background-color: #000;
-/*light theme */
-$bgPageLight: linear-gradient(
-    180deg,
-    #ffffff 0%,
-    #ffffff 65%,
-    rgba(255, 255, 255, 0.75) 100%
-  );
-$bgHeaderLight: #e3e3e3;
-$highlightLight: #000000;
-$font-light: "Archivo", sans-serif;
-$character-light: #ffffff;
-$image-inverted-world: url("../images/Inverted-World.png");
-$character-bottom-light: #e5e5e5;
-$background-lamp-light: url("../images/letters-black.png");
-$footer-background-color-light: #b5bbbf;
 
-$page-background-dark: linear-gradient(
-    180deg,
-    #050000 0%,
-    #130404 65%,
-    rgba(19, 1, 1, 0.75) 100%
-  );
-$header-bg-dark: #220f0f;
-$highlight-dark: #ffffff;
-$font-family-dark: "Rubik Glitch", sans-serif;
-$character-top-image-dark: #000;
-$background-lamp-dark: url("../images/letters-white.png");
-$footer-background-color-dark: #000;
+$bg-light: linear-gradient(
+  180deg,
+  #ffffff 0%,
+  #ffffff 65%,
+  rgba(255, 255, 255, 0.75) 100%
+);
+$bg-header: #e3e3e3;
+$text-black: #000;
+$title: "Archivo", serif;
+$image-top: url("../images/kids-on-the-bike.svg");
+$bg-image-top: #fff;
+$image-bottom: url("../images/inverted-world-monster.svg");
+$bg-image-bottom: #e5e5e5;
+$image-letters: url("../images/letters-black.png");
+$bg-footer: #b5bbbf;
 
+$bg-dark: linear-gradient(
+  180deg,
+  #050000 0%,
+  #130404 65%,
+  rgba(19, 1, 1, 0.75) 100%
+);
+$bg-header-dark: #220f0f;
+$title-dark: "Rubik Glitch", serif;
+$text-white: #fff;
+$image-bottom-dark: url("../images/kids-on-the-bike.svg");
+$bg-bottom-dark: rgba(255, 255, 255, 0.1);
+$image-top-dark: url("../images/inverted-world-monster.svg");
+$bg-image-top-dark: #000;
+$image-letters-dark: url("../images/letters-white.png");
+$bg-footer: #B5BBBF;
+$bg-footer-dark: #000;
