@@ -1,0 +1,49 @@
+header {
+  background-color: $bg-header;
+  min-height: 85rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+header::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("../images/florest-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 90%;
+  filter: saturate(0);
+  opacity: 0.3;
+}
+
+.header-container {
+  max-width: 70rem;
+  padding: 8rem 2rem;
+  text-align: center;
+  z-index: 2;
+
+  img {
+    width: 80%;
+  }
+
+  p {
+    margin: 3rem 0 5rem;
+  }
+
+  button {
+    border: .3rem solid $primary-color;
+    color: $primary-color;
+    font-family: $archivo;
+  }
+}
+
+.header-container {
+  button:hover {
+    background-color: $primary-color;
+    color: $primary-color-contrast;
+  }
+}
