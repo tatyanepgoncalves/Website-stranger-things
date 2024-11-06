@@ -1,0 +1,112 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: $bg-light;
+  font-size: 1.6rem;
+  font-family: $libre;
+
+}
+
+body.dark-theme {
+  background: $bg-dark;
+
+  header {
+    background-color: $bg-header-dark;
+  }
+
+
+  button, h1, h2, h3 {
+    letter-spacing: 0.5rem;
+    font-weight: normal;
+  }
+
+  .invert-element {
+    transform: rotateZ(180deg) scaleX(-1);
+  }
+}
+
+
+body.dark-theme {
+  h1, h2, h3 {
+    font-family: $title-dark;
+    color: #fff;
+  }
+
+  p {
+    color: $text-white;
+    font-family: $inter;
+  }
+
+  main::before {
+    background: $bg-dark no-repeat, url("../images/florest-image.png") no-repeat;
+  }
+}
+
+body.dark-theme {
+  header {
+    background-color: $bg-header-dark;
+    min-height: 100rem;
+  }
+
+  header {
+    button {
+      font-family: $rubik;
+    }
+
+    .header-container {
+      margin-bottom: 6.3rem;
+    }
+  }
+}
+
+body.dark-theme {
+  .world-characters#top-characters {
+    background-color: $bg-image-top-dark;
+    mask: $image-top-dark bottom / contain no-repeat;
+    -webkit-mask: $image-top-dark bottom / 100% no-repeat;
+  }
+
+  .world-characters#bottom-characters {
+    background-color: $bg-bottom-dark;
+
+    
+    mask: $image-bottom-dark bottom / contain no-repeat;
+    -webkit-mask: $image-bottom-dark bottom / 100% no-repeat;
+  }
+
+  #gallery {
+    background: $image-letters-dark 120% / 50% no-repeat;
+  }
+}
+
+body.dark-theme {
+  .gallery-image {
+    outline: 2rem solid $text-white;
+
+    img {
+      border: 1rem solid $text-white;
+    }
+  }
+
+  .form-content {
+    h3 {
+      color: $text-white;
+    }
+    span {
+      font-family: $rubik;
+    }
+  }
+
+
+  .form-container::after {
+    background-color: $text-white;
+  }
+}
+
+body.dark-theme {
+  footer {
+    background-color: $bg-footer-dark;
+  }
+}
