@@ -1,7 +1,5 @@
-<h1>
-  <img src="./src/images/dio-logo.png" alt="logo da DIO" width="80px">
-  Mundo Invertido
-</h1>
+<img src="./src/images/Logo.png">
+
 
 <div align="center">
   <img src="./src/images/Preview-Mundo-Normal.png" alt="Mundo Normal" width="300px">
@@ -20,5 +18,11 @@ Site desenvolvido baseado na série Stranger Things usando HTML, SCSS e JavaScri
 
 - **Tatyane Gonçalves** - *Desenvolvedora* - [@tatyanepgoncalves](https://github.com/tatyanepgoncalves)
 - **Diogo Mainardes** - [@diogomainardes](https://github.com/diogomainardes)
-- **Michele Ambrosio** - *Dev Frontend e Tech Lead* [](https://github.com/micheleambrosio)
+- **Michele Ambrosio** - *Dev Frontend e Tech Lead* [@micheleambrosio](https://github.com/micheleambrosio)
 - **Renan Paula** - *Criador do Projeto e Tech Edutor* - [@RenanJPaula](https://github.com/RenanJPaula)
+
+<br><br>
+
+<div align="center">
+  <img src="./src/images/dio-logo.png" alt="logo da DIO" width="150px">
+</div>
